@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001;
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://express-hello-world-mocha.vercel.app"],
+    origin: ["http://localhost:3000", "https://mern-kms-cl.web.app"],
   })
 );
 app.get("/", (req, res) => res.type('html').send(html));

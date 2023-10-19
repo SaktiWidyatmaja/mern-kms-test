@@ -13,7 +13,8 @@ function App() {
  useEffect(() => {
   const getLocation = async () => {
    let result = await axios.get(
-     "https://express-hello-world-mocha.vercel.app/visitor"
+    //  "https://express-hello-world-mocha.vercel.app/visitor"
+     "https://express-hello-world-kqfwmo35h-saktiwidyatmaja.vercel.app/visitor"
    );
    setLocation(result.data.your_ip);
    setNumVisit(result.data.visitor_number);
